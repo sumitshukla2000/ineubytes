@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="./assets/D.png">
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="container  font-primary mx-auto p-2">
+        <nav class="flex mt-2 justify-between items-center">
+            <!-- logo -->
+            <div class="px-4 md:px-2">
+                <img src="./assets/D.png" class="w-12" alt="logo">
+            </div>
+            <!-- items -->
+            <div class="hidden font-avg font-semibold px-4 text-lg md:block">
+                <a href="#" class="no-underline hover:text-emerald-500 px-4">Home</a>
+                <a href="#" class="no-underline px-4 hover:text-emerald-500">Service</a>
+                <a href="#" class="no-underline px-4 hover:text-emerald-500">Blog</a>
+                <a href="#" class="no-underline px-4 hover:text-emerald-500">Contact</a>
+            </div>
+            <!-- button -->
+            <div class="px-2">
+                <button
+                    class="hidden px-4 py-2 p-2 border-emerald-700 border-2 rounded-md text-emerald-700 duration-300 hover:shadow-xl hover:bg-emerald-700 hover:text-white md:block">Hire
+                    Us</button>
+            </div>
+            <!-- burger -->
+            <div class="px-4 py-2 cursor-pointer block md:hidden"><i class="fa-solid fa-bars text-2xl text-gray-500" id="bars"></i></div>
+        </nav>
+        <!-- responsive menu -->
+        <div class="absolute inset-x-0 hidden w-full  flex-col p-2" id="menu">
+            <div class="bg-slate-100 w-full font-semibold  shadow shadow-gray-400 flex items-center space-y-6 py-4 justify-center flex-col">
+                <a href="#" class=" no-underline hover:text-emerald-500 px-4">Home</a>
+                <a href="#" class=" no-underline px-4 hover:text-emerald-500">Service</a>
+                <a href="#" class=" no-underline px-4 hover:text-emerald-500">Blog</a>
+                <a href="#" class=" no-underline px-4 hover:text-emerald-500">Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- hero section -->
+
+    <main
+        class="font-primary bg-emerald-50 h-1/2 space-y-8 flex justify-evenly flex-col-reverse items-center py-12 md:flex-row md:justify-center md:p-24">
+        <!-- text section -->
+        <section class="px-12 mt-8 space-y-2 md:w-1/2">
+            <h1 class="text-3xl font-semibold max-w-lg p-2 text-center md:text-5xl md:text-left">The <span
+                    class="text-emerald-700">
+                    Valuable Service</span> you really want</h1>
+            <p class="max-w-sm text-lg p-2 font-semibold text-center mx-auto md:text-left  md:mx-0">Experience increase
+                visibility,
+                higher conversation, and lasting impact with our proven SEO techniques.</p>
+            <div class="mx-auto grid place-items-center md:block">
+                <button class="text-center text-white m-2 px-6 py-2 bg-emerald-700 rounded-md duration-300 hover:shadow-xl hover:bg-emerald-500">Get Started</button>
+            </div>
+        </section>
+        <!-- img section -->
+        <section class="overflow-hidden md:w-1/2">
+            <img src="./assets/combine1.jpg" class="rounded-lg mx-auto h-48 md:h-64" alt="img">
+        </section>
+    </main>
+
+    <!-- benefit section -->
+    <section class="bg-gray-200 p-6 md:p-6">
+        <div>
+            <!-- heading -->
+            <h1 class="text-xl font-main uppercase text-center md:text-3xl">
+                Benefits
+            </h1>
+            <!-- benefit items -->
+            <div class="py-4 flex flex-col flex-wrap items-center md:items-start md:justify-around md:flex-row ">
+                <!-- item-1 -->
+                <div class="overflow-hidden hover:scale-105 duration-300 cursor-pointer m-2 md:mx-4">
+                    <img src="./assets/online.jpg" class="mx-auto rounded-lg w-64 hover:shadow-xl" alt="marketing">
+                    <h2 class="text-xl text-black font-semibold font-avg text-center p-6">Online Presence
+                    </h2>
+                </div>
+                <!-- item-2 -->
+                <div class="hidden overflow-hidden hover:scale-105 duration-300 cursor-pointer m-2 md:mx-4 md:block">
+                    <img src="./assets/trust.jpg" class="rounded-lg mx-auto w-64 hover:shadow-xl" alt="e-com">
+                    <h2 class="text-xl text-black font-semibold  font-avg text-center p-6">Credebility and Trust</h2>
+                </div>
+                <!-- item-3 -->
+                <div class="hidden overflow-hidden cursor-pointer hover:scale-105 duration-300 m-2 md:mx-4 md:block">
+                    <img src="./assets/brand.jpg" class="rounded-lg w-64 hover:shadow-xl" alt="content">
+                    <h2 class="text-xl text-black font-semibold font-avg text-center p-6">Brand Visibility</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section -->
+    <section class="bg-emerald-50 p-8">
+        <div>
+            <h1 class="text-3xl text-center font-main">SERVICES</h1>
+            <!-- service items -->
+            <div class="py-4 flex flex-col  flex-wrap items-center md:items-start md:justify-around md:flex-row ">
+                <!-- item-1 -->
+                <div class="overflow-hidden m-2 hover:scale-105 duration-300 cursor-pointer md:mx-4">
+                    <img src="./assets/marketing.jpg" class="mx-auto rounded-lg w-52 md:w-72 hover:shadow-xl"
+                        alt="marketing">
+                    <h2 class="text-xl text-black font-semibold font-avg text-center p-6">Marketing and Advertising
+                    </h2>
+                </div>
+                <!-- item-2 -->
+                <div class="hidden overflow-hidden hover:scale-105 duration-300 cursor-pointer m-2 md:mx-4 md:block">
+                    <img src="./assets/e-com.jpg" class="rounded-lg w-52 md:w-72 hover:shadow-xl" alt="e-com">
+                    <h2 class="text-xl text-black font-semibold font-avg text-center p-6">E-Commerce Sales</h2>
+                </div>
+                <!-- item-3 -->
+                <div class="hidden overflow-hidden hover:scale-105 duration-300 cursor-pointer m-2 md:mx-4 md:block">
+                    <img src="./assets/content.jpg" class=" rounded-lg w-52 md:w-72 hover:shadow-xl" alt="content">
+                    <h2 class="text-xl text-black font-semibold font-avg text-center p-6">Content Marketing</h2>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- customer testimonial -->
+    <section class="container p-6 mx-auto">
+        <div class="space-y-4">
+            <h1 class="text-center text-3xl py-2 font-main">Customer Testimonial</h1>
+            <div class="flex flex-col  gap-6 justify-evenly md:flex-row">
+                <!-- testimonial-1 -->
+                <div
+                    class="justify-evenly bg-emerald-50 rounded-sm p-4 duration-300 hover:drop-shadow-lg  hover:scale-105">
+                    <div class=" text-center text-yellow-400 py-2">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-sm font-primary text-center">Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Alias autem distinctio dicta deserunt, eaque, voluptas maxime necessitatibus nihil laborum
+                        vitae ad impedit doloribus.</p>
+                    <h2 class="pt-8 text-lg font-avg font-primary font-bold text-center">John Doe</h2>
+                </div>
+
+                <!-- testimonial-2 -->
+                <div class="bg-emerald-50 rounded-sm p-4 duration-300 hover:drop-shadow-lg  hover:scale-105">
+                    <div class=" text-center text-yellow-400 py-2">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-sm font-primary text-center">Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Alias autem distinctio dicta deserunt, eaque, voluptas maxime necessitatibus nihil laborum
+                        vitae ad impedit doloribus.</p>
+                    <h2 class="pt-8 text-lg font-avg font-primary font-bold text-center">Sun Tzu</h2>
+                </div>
+
+                <!-- testimonial-3 -->
+                <div
+                    class="hidden bg-emerald-50 rounded-sm p-4 duration-300 hover:drop-shadow-lg  hover:scale-105 md:block">
+                    <div class=" text-center text-yellow-400 py-2">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-sm font-primary text-center">Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Alias autem distinctio dicta deserunt, eaque, voluptas maxime necessitatibus nihil laborum
+                        vitae ad impedit doloribus.</p>
+                    <h2 class="pt-8 text-lg font-avg font-primary font-bold text-center">Paul Walker</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- newsletter form -->
+    <section class="container  mx-auto p-8">
+        <h1 class="px-2 text-2xl text-center w-auto font-main md:text-3xl">Stay In Touch</h1>
+        <!-- form -->
+        <div class="mx-auto bg-gray-200 max-w-xl mt-4 p-2 font-avg drop-shadow-xl md:p-12">
+            <form>
+                <!-- name -->
+                <div class="py-3 mx-auto md:w-full">
+                    <label class="block py-2" for="name">Name</label>
+                    <input type="text" id="name"
+                        class="rounded-lg border border-slate-300 block outline-none p-2 w-full invalid:border-red-500 invalid:text-red-500 md:p-3"
+                        placeholder="Your Name">
+                </div>
+                <!-- email -->
+                <div class="py-3 mx-auto md:w-full">
+                    <label class="block py-2" for="name">Email</label>
+                    <input type="email" id="name"
+                        class="rounded-lg border border-slate-300 block  focus:outline-none p-2 w-full invalid:border-pink-500 invalid:text-red-500 md:p-3"
+                        placeholder="Your Email">
+                </div>
+                <div class="py-3 grid place-items-center">
+                    <input type="button" value="Submit"
+                        class="duration-300 cursor-pointer py-2 mx-auto text-center text-white px-4 bg-emerald-800 rounded-full hover:bg-emerald-600" />
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="space-y-4">
+        <h1 class="text-3xl font-main text-center p-4">Contacts</h1>
+        <!-- contacts -->
+        <div class="flex py-8  text-center flex-col justify-evenly font-avg md:flex-row">
+            <!-- contact-1 -->
+            <div class="px-12 py-6 border-r-2 inline-block md:px-28">
+                <i class="text-6xl py-2 fa-solid fa-phone text-emerald-500"></i>
+                <h1 class="text-lg font-bold text-gray-600">Telephone</h1>
+                <p class="text-sm text-gray-500 whitespace-nowrap md:text-md">+91 9143XXXXXX</p>
+                <p class="text-sm text-gray-500 whitespace-nowrap md:text-md">+91 9143XXXXXX</p>
+            </div>
+            <!-- contact-2 -->
+            <div class="px-12 py-6 inline-block">
+                <i class="py-2 text-6xl fa-solid fa-location-dot text-emerald-500"></i>
+                <h1 class="text-lg font-bold text-gray-600">Our Mail</h1>
+                <p class="text-sm text-gray-500 whitespace-nowrap md:text-md">help@s.com</p>
+                <p class="text-sm text-gray-500 whitespace-nowrap md:text-md">help@s.com</p>
+            </div>
+            <!-- contact-3 -->
+            <div class=" px-12 py-6 border-l-2 inline-block md:px-28">
+                <i class="py-2 text-6xl fa-regular fa-envelope text-emerald-500"></i>
+                <h1 class="text-lg font-bold text-gray-600">Location</h1>
+                <p class="text-sm max-w-xs break-words text-gray-500 md:text-md">Govind Puri, New Delhi</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="p-12 bg-gray-300">
+        <p class="text-xl text-center font-main">Created by <a href="https://github.com/sumitshukla2000" class="text-emerald-700 duration-300 hover:text-emerald-500">Sumit Shukla &#128522;</a></p>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>
